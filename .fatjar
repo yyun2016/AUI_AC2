@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Fri Nov 07 17:30:01 CST 2014
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=AUI_AC_fat.jar
+manifest.mergeall=true
+manifest.mainclass=com.frame.MainFrame
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

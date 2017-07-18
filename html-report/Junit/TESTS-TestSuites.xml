@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="N12229D1" id="0" name="Video48060FPSSuperWide" package="" tests="1" time="100.0" timestamp="20170718 14:37:39">
+    <testcase classname="one.hardware.Testcase.VideoCase" name="Video48060FPSSuperWide_1_1" time="100.0">
+      <failure message="" type="">INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+one.hardware.Testcase.VideoCase:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=Video48060FPSSuperWide_1_1
+INSTRUMENTATION_STATUS: class=one.hardware.Testcase.VideoCase
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+[CktTest-VideoCase-testV48060fpsSuperWide] *****Start to run VideoCase-testV48060fpsSuperWide *****
+[CktTest-VideoCase-testV48060fpsSuperWide] 褰���package:com.hicam
+[CktTest-VideoCase-testV48060fpsSuperWide] �抽��filemanager-Success
+[CktTest-VideoCase-testV48060fpsSuperWide] 褰���package:com.hicam
+[CktTest-VideoCase-testV48060fpsSuperWide] �抽��Camera-Success
+[CktTest-VideoCase-testV48060fpsSuperWide] 褰���package:com.hicam
+[CktTest-VideoCase-testV48060fpsSuperWide] �抽��Gallery-Success
+[CktTest-VideoCase-testV48060fpsSuperWide] 褰���package:com.hicam
+[CktTest-VideoCase-testV48060fpsSuperWide] 宸茬�杩��ョ�告��
+[CktTest-VideoCase-testV48060fpsSuperWide] [Not Find Object]: android:id/button2
+[CktTest-VideoCase-testV48060fpsSuperWide] [Find Object]: android:id/content
+[CktTest-VideoCase-testV48060fpsSuperWide] [Find Object]: android:id/content
+[CktTest-VideoCase-testV48060fpsSuperWide] [Find Object]: android:id/content
+[CktTest-VideoCase-testV48060fpsSuperWide] [Scroll Find Object]: Video
+[CktTest-VideoCase-testV48060fpsSuperWide] [Find Object]: Video
+[CktTest-VideoCase-testV48060fpsSuperWide] [Find Object]: com.hicam:id/camera_setting_shortcut
+[CktTest-VideoCase-testV48060fpsSuperWide] [Find Object]: Video Quality
+[CktTest-VideoCase-testV48060fpsSuperWide] [Scroll Find Object]: 480@60FPS
+[CktTest-VideoCase-testV48060fpsSuperWide] [Find Object]: 480@60FPS
+[CktTest-VideoCase-testV48060fpsSuperWide] Video Quality璁剧疆涓� :480@60FPS
+[CktTest-VideoCase-testV48060fpsSuperWide] [Scroll Find Object]: Video
+[CktTest-VideoCase-testV48060fpsSuperWide] [Find Object]: Video
+[CktTest-VideoCase-testV48060fpsSuperWide] [Find Object]: com.hicam:id/camera_setting_shortcut
+[CktTest-VideoCase-testV48060fpsSuperWide] [Scroll Find Object]: Video Angle
+[CktTest-VideoCase-testV48060fpsSuperWide] [Find Object]: Video Angle
+[CktTest-VideoCase-testV48060fpsSuperWide] [Find Object]: Super Wide
+[CktTest-VideoCase-testV48060fpsSuperWide] Video Angle璁剧疆涓� :Super Wide
+[CktTest-VideoCase-testV48060fpsSuperWide] [Find Object]: com.hicam:id/camera_video_shortcut
+[CktTest-VideoCase-testV48060fpsSuperWide] []
+[CktTest-VideoCase-testV48060fpsSuperWide] Launch-Camera-Key
+[CktTest-VideoCase-testV48060fpsSuperWide] [Find Object]: com.hicam:id/recording_time
+[CktTest-VideoCase-testV48060fpsSuperWide] [Find Object]: com.hicam:id/recording_time
+[CktTest-VideoCase-testV48060fpsSuperWide] recording_time:00:00:00
+[CktTest-VideoCase-testV48060fpsSuperWide] [Find Object]: com.hicam:id/recording_time
+[CktTest-VideoCase-testV48060fpsSuperWide] [Find Object]: com.hicam:id/recording_time
+[CktTest-VideoCase-testV48060fpsSuperWide] recording_time:00:00:10
+[CktTest-VideoCase-testV48060fpsSuperWide] Launch-Camera-Key
+[CktTest-VideoCase-testV48060fpsSuperWide] []
+[CktTest-VideoCase-testV48060fpsSuperWide] �ф��浠跺す��琛�:[]
+[CktTest-VideoCase-testV48060fpsSuperWide] �版��浠跺す��琛�:[]
+[CktTest-VideoCase-testV48060fpsSuperWide] ��浠跺樊��:[]
+[CktTest-VideoCase-testV48060fpsSuperWide] [Test Result]: The Test Case VideoCase-testV48060fpsSuperWide Failed
+[CktTest-VideoCase-testV48060fpsSuperWide] *****End to run VideoCase-testV48060fpsSuperWide *****
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=Video48060FPSSuperWide_1_1
+INSTRUMENTATION_STATUS: class=one.hardware.Testcase.VideoCase
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=
+Test results for WatcherResultPrinter=.
+Time: 98.866
+OK (1 test)
+INSTRUMENTATION_STATUS_CODE: -1
+</failure>
+
+    </testcase>
+
+  </testsuite>
+</testsuites>
