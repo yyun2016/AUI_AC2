@@ -217,7 +217,7 @@ public class MainFrame implements ActionListener {
 	public MainFrame() {
 		//super();
 		frame = new JFrame();
-		frame.setTitle("UIAutomator CTool");
+		frame.setTitle("UIAutomator1.0 CTool For V3");
 		// 激活窗口事件
 		//enableEvents(AWTEvent.WINDOW_EVENT_MASK);
 		frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
@@ -225,9 +225,9 @@ public class MainFrame implements ActionListener {
 		w=(int)toolkit.getScreenSize().getWidth()-100;
 		h=(int)toolkit.getScreenSize().getHeight()-100;
 		frame.setBounds(100, 100, w, h);
-		int x = (int) (toolkit.getScreenSize().getWidth() - w) / 2;
-		int y = (int) (toolkit.getScreenSize().getHeight() - h) / 2;
-		frame.setLocation(x, y);// 设置窗口居中
+//		int x = (int) (toolkit.getScreenSize().getWidth() - w) / 2;
+//		int y = (int) (toolkit.getScreenSize().getHeight() - h) / 2;
+//		frame.setLocation(x, y);// 设置窗口居中
 		frame.setJMenuBar(getJMenuBar());// 设置菜单项
 		frame.setLayout(new BorderLayout());
 		frame.setResizable(true);
@@ -3428,6 +3428,12 @@ public class MainFrame implements ActionListener {
 			JMenu menu_file = new JMenu("文件");
 			menu_file.setFont(new Font("新宋体", Font.PLAIN, 12));
 			menuBar.add(menu_file);
+			
+			JMenuItem test=new JMenuItem("这里面没东西啦");
+			test.setActionCommand("test");
+			test.setFont(new Font("微软雅黑", Font.PLAIN, 12));
+			test.addActionListener(this);
+			menu_file.add(test);
 
 			JMenu menu_edit = new JMenu("编辑");
 			menu_edit.setFont(new Font("新宋体", Font.PLAIN, 12));
