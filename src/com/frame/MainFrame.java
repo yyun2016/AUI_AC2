@@ -225,9 +225,9 @@ public class MainFrame implements ActionListener {
 		w=(int)toolkit.getScreenSize().getWidth()-100;
 		h=(int)toolkit.getScreenSize().getHeight()-100;
 		frame.setBounds(100, 100, w, h);
-//		int x = (int) (toolkit.getScreenSize().getWidth() - w) / 2;
-//		int y = (int) (toolkit.getScreenSize().getHeight() - h) / 2;
-//		frame.setLocation(x, y);// 设置窗口居中
+		int x = (int) (toolkit.getScreenSize().getWidth() - w) / 2;
+		int y = (int) (toolkit.getScreenSize().getHeight() - h) / 2;
+		frame.setLocation(x, y);// 设置窗口居中
 		frame.setJMenuBar(getJMenuBar());// 设置菜单项
 		frame.setLayout(new BorderLayout());
 		frame.setResizable(true);
