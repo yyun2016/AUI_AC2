@@ -1460,13 +1460,13 @@ public class MainFrame implements ActionListener {
 			sfailfld.setEditable(false);
 			sfailfld.setPreferredSize(dimensionstatics);
 
-			JLabel snotrunlbl = new JLabel("notrun:");
+			JLabel snotrunlbl = new JLabel("未运行:");
 			snotrunlbl.setFont(new Font("新宋体", Font.PLAIN, 12));
 			snotrunfld = new JTextField();
 			snotrunfld.setEditable(false);
 			snotrunfld.setPreferredSize(dimensionstatics);
 
-			replay = new JButton("replay");
+			replay = new JButton("开始测试");
 			replay.setPreferredSize(dimension);
 			replay.setActionCommand("replay");
 			replay.setFont(new Font("新宋体", Font.PLAIN, 12));
@@ -1515,31 +1515,31 @@ public class MainFrame implements ActionListener {
 			failfld.setEditable(false);
 			failfld.setPreferredSize(dimensionstatics);
 
-			JLabel notrunlbl = new JLabel("notrun:");
+			JLabel notrunlbl = new JLabel("未运行:");
 			notrunfld = new JTextField();
 			notrunfld.setEditable(false);
 			notrunfld.setPreferredSize(dimensionstatics);
 
-			bt_up = new JButton("move up");
+			bt_up = new JButton("向上移动");
 			bt_up.setPreferredSize(dimension);
 			bt_up.setActionCommand("bt_up");
 			bt_up.setFont(new Font("新宋体", Font.PLAIN, 12));
 			bt_up.addActionListener(this);
 
-			bt_down = new JButton("move down");
+			bt_down = new JButton("向下移动");
 			bt_down.setPreferredSize(dimension);
 			bt_down.setActionCommand("bt_down");
 			bt_down.setFont(new Font("新宋体", Font.PLAIN, 12));
 			bt_down.addActionListener(this);
 
-			bt_random = new JButton("random");
+			bt_random = new JButton("随机排序");
 			bt_random.setPreferredSize(dimension);
 			bt_random.setActionCommand("random");
 			bt_random.setFont(new Font("新宋体", Font.PLAIN, 12));
 			bt_random.addActionListener(this);
 
 
-			bt_clear = new JButton("clear");
+			bt_clear = new JButton("清除数据");
 			bt_clear.setPreferredSize(dimension);
 			bt_clear.setActionCommand("clear");
 			bt_clear.setFont(new Font("新宋体", Font.PLAIN, 12));
@@ -1614,12 +1614,12 @@ public class MainFrame implements ActionListener {
 			toolBarPanel.add(rowPanel);
 
 			rowPanel = new JPanel(new FlowLayout(FlowLayout.LEADING));
-			upButton = new JButton("move up");
+			upButton = new JButton("向上移");
 			upButton.setActionCommand("up_btn");
 			upButton.addActionListener(this);
 			upButton.setPreferredSize(dimension);
 
-			downButton = new JButton("move down");
+			downButton = new JButton("向下移");
 			downButton.setActionCommand("down_btn");
 			downButton.addActionListener(this);
 			downButton.setPreferredSize(dimension);
@@ -1638,7 +1638,7 @@ public class MainFrame implements ActionListener {
 			JLabel logLabel = new JLabel("Log");
 			logCheckBox = new JCheckBox();
 
-			JButton terminate_btn = new JButton("terminate");
+			JButton terminate_btn = new JButton("终止测试");
 			terminate_btn.setActionCommand("terminate");
 			terminate_btn.addActionListener(this);
 			terminate_btn.setPreferredSize(dimension);
@@ -2722,7 +2722,7 @@ public class MainFrame implements ActionListener {
 			}
 		});
 
-		JButton delBtn = new JButton("删除");
+		JButton delBtn = new JButton("单条删除");
 		delBtn.setPreferredSize(lbDimension);
 		delBtn.addActionListener(new ActionListener() {
 
@@ -3123,7 +3123,7 @@ public class MainFrame implements ActionListener {
 			final JComboBox<Integer> rowhBox = new JComboBox<Integer>();
 			rowhBox.setPreferredSize(dimension);
 			for (int i = 0; i < 20; i++) {
-				rowhBox.addItem(20+i*5);
+				rowhBox.addItem(15+i*5);
 			}
 			rowhBox.addItemListener(new ItemListener() {
 
@@ -3144,22 +3144,22 @@ public class MainFrame implements ActionListener {
 
 			rowPanel = new JPanel(new FlowLayout(FlowLayout.LEADING));
 
-			scrpitsAdd = new JButton("add");
+			scrpitsAdd = new JButton("单条添加");
 			scrpitsAdd.setActionCommand("scrpitsAdd");
 			scrpitsAdd.setPreferredSize(dimension);
 			scrpitsAdd.addActionListener(this);
 
-			scrpitsImport = new JButton("import");
+			scrpitsImport = new JButton("批量导入");
 			scrpitsImport.setActionCommand("scrpitsImport");
 			scrpitsImport.setPreferredSize(dimension);
 			scrpitsImport.addActionListener(this);
 
-			scrpitsDel = new JButton("delete");
+			scrpitsDel = new JButton("单条删除");
 			scrpitsDel.setActionCommand("scrpitsDel");
 			scrpitsDel.addActionListener(this);
 			scrpitsDel.setPreferredSize(dimension);
 			
-			script_device = new JButton("script_device");
+			script_device = new JButton("批量修改设备");
 			script_device.setActionCommand("script_device");
 			script_device.addActionListener(this);
 			script_device.setPreferredSize(dimension);
@@ -3198,14 +3198,14 @@ public class MainFrame implements ActionListener {
 				}
 			});
 
-			scrpitsExport = new JButton("export");
+			scrpitsExport = new JButton("脚本导出");
 			scrpitsExport.setActionCommand("scrpitsExport");
 			scrpitsExport.addActionListener(this);
 			scrpitsExport.setPreferredSize(dimension);
 
 			toolkpiPanel.add(new JSeparator(SwingConstants.HORIZONTAL), BorderLayout.CENTER);
 			rowPanel = new JPanel(new FlowLayout(FlowLayout.LEADING));
-			constantscript = new JButton("modify");
+			constantscript = new JButton("参数配置");
 			constantscript.setPreferredSize(dimension);
 			constantscript.setActionCommand("constantscript");
 			//constantscript.setFont(new Font("新宋体", Font.PLAIN, 12));
@@ -3229,13 +3229,13 @@ public class MainFrame implements ActionListener {
 
 			rowPanel = new JPanel(new FlowLayout(FlowLayout.LEADING));
 
-			spUpButton = new JButton("move up");
+			spUpButton = new JButton("向上移");
 			spUpButton.setPreferredSize(dimension);
 			spUpButton.setActionCommand("spUpButton");
 			spUpButton.setFont(new Font("新宋体", Font.PLAIN, 12));
 			spUpButton.addActionListener(this);
 
-			spDownButton = new JButton("move down");
+			spDownButton = new JButton("向下移");
 			spDownButton.setPreferredSize(dimension);
 			spDownButton.setActionCommand("spDownButton");
 			spDownButton.setFont(new Font("新宋体", Font.PLAIN, 12));

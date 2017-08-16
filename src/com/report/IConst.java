@@ -3,7 +3,7 @@ public interface IConst {
 	public static final String TESTRESULT_HTML_HEAD="<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01//EN' 'http://www.w3.org/TR/html4/strict.dtd'>" +
 	"<html>" +
 	"<head>" +
-	"<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />" +
+	"<meta http-equiv='Content-Type' content='text/html'; charset='UTF-8' />" +
 	"<style type=\"text/css\">" +
 	"body{font:normal 12px Verdana}" +
 	"a#tip {position:relative;left:75px; font-weight:bold;}" +
@@ -92,7 +92,7 @@ public interface IConst {
 	public static final String TESTRESULT_MONKEYHTML_HEAD="<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01//EN' 'http://www.w3.org/TR/html4/strict.dtd'>" +
 	"<html>" +
 	"<head>" +
-	"<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />" +
+	"<meta http-equiv='Content-Type' content='text/html'; charset='UTF-8' />" +
 	"<style type=\"text/css\">\n" +
 	"table {width:500px;table-layout:fixed;}\n"+
 	".col1 {width:100px;}\n"+
