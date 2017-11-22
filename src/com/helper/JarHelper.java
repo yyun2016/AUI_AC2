@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 
 public class JarHelper {
-	public static int TAG =1;
+	public static int TAG =2;
 	public static String encode_gb2312 = "GB2312";
 	public static String encode_utf = "UTF-8";
 	public static ArrayList<String> getVideos(String path){
