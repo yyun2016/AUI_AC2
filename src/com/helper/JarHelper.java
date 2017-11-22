@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 
 public class JarHelper {
-	public static int TAG =2;
+	public static int TAG =2;//1：通过jar包路径生成报告给；非1的话使用工具生成报告
 	public static String encode_gb2312 = "GB2312";
 	public static String encode_utf = "UTF-8";
 	public static ArrayList<String> getVideos(String path){
